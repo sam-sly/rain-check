@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "Rain Check app backend server",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sam-sly/rain-check-server.git"
+  },
+  "author": "Sam Sly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sam-sly/rain-check-server/issues"
+  },
+  "homepage": "https://github.com/sam-sly/rain-check-server#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongodb": "^6.1.0",
+    "mongoose": "^7.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
